@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - Helix 2 Framework</name>
+    <author>VineaTech.DE</author>
+    <creationDate>Februar 2015</creationDate>
+    <copyright>Changed from Vineatech Online Projects</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2 or later</license>
+    <authorEmail>support@vineatech.de</authorEmail>
+    <authorUrl>www.vineatech.de</authorUrl>
+    <version>2.1.8.001</version>
+    <description>Helix Framework - JoomShaper Template Framework for Joomla 2.5 and 3.X Support Font-Awesome V3.2.1 and 4.3.0</description>
+	
+    <updateservers> 
+       <server type="extension" priority="1" name="System - Helix 2 Framework">http://update.vineatech.de/plg_system_helix.xml</server>
+    </updateservers>
+    <files>
+		<filename plugin="helix">helix.php</filename>
+		<filename plugin="helix">index.html</filename>
+		<filename plugin="helix">overview.php</filename>
+		<folder plugin="helix">core</folder>
+		<folder plugin="helix">css</folder>
+		<folder plugin="helix">features</folder>
+		<folder plugin="helix">fields</folder>
+		<folder plugin="helix">fonts</folder>
+		<folder plugin="helix">html</folder>
+		<folder plugin="helix">images</folder>
+		<folder plugin="helix">js</folder>
+		<folder plugin="helix">layout</folder>
+		<folder plugin="helix">shortcodes</folder>
+    </files>
+    <fieldset addfieldpath="/plugins/system/helix/fields"></fieldset>
+</extension>
